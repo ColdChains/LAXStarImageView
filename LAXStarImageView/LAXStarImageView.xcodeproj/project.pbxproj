@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579A91B91E7BD9A600A431A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 579A91B81E7BD9A600A431A3 /* main.m */; };
+		579A91BC1E7BD9A600A431A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 579A91BB1E7BD9A600A431A3 /* AppDelegate.m */; };
+		579A91BF1E7BD9A600A431A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579A91BE1E7BD9A600A431A3 /* ViewController.m */; };
+		579A91C21E7BD9A600A431A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579A91C01E7BD9A600A431A3 /* Main.storyboard */; };
+		579A91C41E7BD9A600A431A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579A91C31E7BD9A600A431A3 /* Assets.xcassets */; };
+		579A91C71E7BD9A600A431A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579A91C51E7BD9A600A431A3 /* LaunchScreen.storyboard */; };
+		579A91D01E7BD9BD00A431A3 /* LAXStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 579A91CF1E7BD9BD00A431A3 /* LAXStarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		579A91B41E7BD9A600A431A3 /* LAXStarImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAXStarImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579A91B81E7BD9A600A431A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		579A91BA1E7BD9A600A431A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		579A91BB1E7BD9A600A431A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		579A91BD1E7BD9A600A431A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		579A91BE1E7BD9A600A431A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		579A91C11E7BD9A600A431A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		579A91C31E7BD9A600A431A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		579A91C61E7BD9A600A431A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		579A91C81E7BD9A600A431A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579A91CE1E7BD9BD00A431A3 /* LAXStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAXStarView.h; sourceTree = "<group>"; };
+		579A91CF1E7BD9BD00A431A3 /* LAXStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAXStarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		579A91B11E7BD9A600A431A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579A91AB1E7BD9A600A431A3 = {
+			isa = PBXGroup;
+			children = (
+				579A91B61E7BD9A600A431A3 /* LAXStarImageView */,
+				579A91B51E7BD9A600A431A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		579A91B51E7BD9A600A431A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579A91B41E7BD9A600A431A3 /* LAXStarImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579A91B61E7BD9A600A431A3 /* LAXStarImageView */ = {
+			isa = PBXGroup;
+			children = (
+				579A91BA1E7BD9A600A431A3 /* AppDelegate.h */,
+				579A91BB1E7BD9A600A431A3 /* AppDelegate.m */,
+				579A91BD1E7BD9A600A431A3 /* ViewController.h */,
+				579A91BE1E7BD9A600A431A3 /* ViewController.m */,
+				579A91CE1E7BD9BD00A431A3 /* LAXStarView.h */,
+				579A91CF1E7BD9BD00A431A3 /* LAXStarView.m */,
+				579A91C01E7BD9A600A431A3 /* Main.storyboard */,
+				579A91C31E7BD9A600A431A3 /* Assets.xcassets */,
+				579A91C51E7BD9A600A431A3 /* LaunchScreen.storyboard */,
+				579A91C81E7BD9A600A431A3 /* Info.plist */,
+				579A91B71E7BD9A600A431A3 /* Supporting Files */,
+			);
+			path = LAXStarImageView;
+			sourceTree = "<group>";
+		};
+		579A91B71E7BD9A600A431A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				579A91B81E7BD9A600A431A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		579A91B31E7BD9A600A431A3 /* LAXStarImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579A91CB1E7BD9A600A431A3 /* Build configuration list for PBXNativeTarget "LAXStarImageView" */;
+			buildPhases = (
+				579A91B01E7BD9A600A431A3 /* Sources */,
+				579A91B11E7BD9A600A431A3 /* Frameworks */,
+				579A91B21E7BD9A600A431A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAXStarImageView;
+			productName = LAXStarImageView;
+			productReference = 579A91B41E7BD9A600A431A3 /* LAXStarImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579A91AC1E7BD9A600A431A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "冰凉的枷锁";
+				TargetAttributes = {
+					579A91B31E7BD9A600A431A3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 579A91AF1E7BD9A600A431A3 /* Build configuration list for PBXProject "LAXStarImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579A91AB1E7BD9A600A431A3;
+			productRefGroup = 579A91B51E7BD9A600A431A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				579A91B31E7BD9A600A431A3 /* LAXStarImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		579A91B21E7BD9A600A431A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579A91C71E7BD9A600A431A3 /* LaunchScreen.storyboard in Resources */,
+				579A91C41E7BD9A600A431A3 /* Assets.xcassets in Resources */,
+				579A91C21E7BD9A600A431A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		579A91B01E7BD9A600A431A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579A91BF1E7BD9A600A431A3 /* ViewController.m in Sources */,
+				579A91BC1E7BD9A600A431A3 /* AppDelegate.m in Sources */,
+				579A91D01E7BD9BD00A431A3 /* LAXStarView.m in Sources */,
+				579A91B91E7BD9A600A431A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		579A91C01E7BD9A600A431A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579A91C11E7BD9A600A431A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		579A91C51E7BD9A600A431A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579A91C61E7BD9A600A431A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		579A91C91E7BD9A600A431A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		579A91CA1E7BD9A600A431A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		579A91CC1E7BD9A600A431A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAXStarImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdut.LAXStarImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		579A91CD1E7BD9A600A431A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LAXStarImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdut.LAXStarImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		579A91AF1E7BD9A600A431A3 /* Build configuration list for PBXProject "LAXStarImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579A91C91E7BD9A600A431A3 /* Debug */,
+				579A91CA1E7BD9A600A431A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579A91CB1E7BD9A600A431A3 /* Build configuration list for PBXNativeTarget "LAXStarImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579A91CC1E7BD9A600A431A3 /* Debug */,
+				579A91CD1E7BD9A600A431A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 579A91AC1E7BD9A600A431A3 /* Project object */;
+}
